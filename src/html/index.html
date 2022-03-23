@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="icon"
+      type="image/svg"
+      sizes="16x16"
+      href="/src/assets/iconst/spinner-solid.svg"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
@@ -12,9 +18,26 @@
     <title>App Travel</title>
   </head>
   <body>
+    <main id="container" class="container">
+      <header id="header" class="header">
+        <button id="button" class="btn back">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </button>
+        <button id="button" class="btn back">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </button>
+      </header>
+
+      <section id="body" class="body">
+        <h1 class="body-title">Travel Fly UP</h1>
+        <p class="text-description">Dreams Tourism</p>
+      </section>
+    </main>
+
     <!--Javascript-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tweene/0.5.11/tweene-all.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="/src/js/index.js"></script>
   </body>
 </html>
