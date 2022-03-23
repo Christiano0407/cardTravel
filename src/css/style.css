@@ -1,0 +1,82 @@
+/*CSS Import ============================*/
+
+/*=Root ================================*/
+:root {
+  /*=Color Basic=*/
+  --clr-white: #fff;
+  --clr-white2: #f2f2f2;
+  --clr-white3: #bfbfbf;
+  --clr-black: #000;
+  --clr-black-2: #0d0d0d;
+  --clr-gray: #404040;
+  --gradient-color: linear-gradient(
+    115deg,
+    #4fcf70,
+    #fad648,
+    #a767e5,
+    #12bcfe,
+    #44ce7b
+  );
+  /*=Font Size=*/
+  --font-size-extra: 3rem;
+  --font-size-title: 2.4rem;
+  --font-size-Big: 1.8rem;
+  --font-size-Medium: 1.6rem;
+  --font-size-medium-plus: 1.5rem;
+  --font-size-small: 1.2rem;
+  -font-size-small-plus: 0.8rem;
+  /*=Margins=*/
+  --margin-top: 2rem;
+  --margin-bottom: 2rem;
+  --margin-left: 1rem;
+  --margin-right: 1rem;
+  --margin: 0 auto;
+  /*=Text=*/
+  --letter-spacing: 0.1rem;
+  --gap: 2rem;
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+/*= CSS General ================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+p,
+span {
+  letter-spacing: 0.1rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media screen and (min-width: 968px) {
+  :root {
+    --h1-font-size: 2.25rem;
+    --normal-font-size: 1rem;
+  }
+}
