@@ -143,14 +143,27 @@ body {
   border-radius: 50%;
   background-size: cover;
 }
-.img figure {
-  width: 3rem;
-  height: 3rem;
-  background-position: center;
-  object-fit: cover;
-  border-radius: 50%;
-  background-size: cover;
+.user .img-1 {
+  background-image: url("../assets/image/perfil.png");
 }
+.user .img-2 {
+  background-image: url("../assets/image/perfil2.jpg");
+}
+.user .img-3 {
+  background-image: url("../assets/image/perfil4.jpg");
+}
+.user .img-4 {
+  background-image: url("../assets/image/perfil5.jpg");
+}
+.user .img:not(:first-child) {
+  margin-left: -1rem;
+}
+.user .rating-text {
+  margin-left: 1.4rem;
+  font-size: 1.6rem;
+  filter: opacity(0.6);
+}
+
 /*=================================================>*/
 @media (prefers-reduced-motion: reduce) {
   *,
