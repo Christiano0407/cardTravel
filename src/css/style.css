@@ -1,4 +1,8 @@
 /*CSS Import ============================*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("/src/css/mediaQueries.css");
+@import url("/src/css/components.css");
 
 /*=Root ================================*/
 :root {
@@ -17,6 +21,16 @@
     #12bcfe,
     #44ce7b
   );
+  /*Color UX/UI PRINCIPAL*/
+  --clr-primary: #7338f2;
+  --clr-secondary: #31188c;
+  --clr-secblackOne: #010326;
+  --clr-secBlaTwo: #060940;
+  --clr-secBlaThr: #0a0e59;
+  --clr-extra: #3fa663;
+  /*=Typography=*/
+  --font-family-Mon: "Montserrat", sans-serif;
+  --font-family-DM: "DM Sans", sans-serif;
   /*=Font Size=*/
   --font-size-extra: 3rem;
   --font-size-title: 2.4rem;
