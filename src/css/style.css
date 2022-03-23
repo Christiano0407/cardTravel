@@ -163,6 +163,36 @@ body {
   font-size: 1.6rem;
   filter: opacity(0.6);
 }
+.body .about {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.body .detail {
+  font-size: 1.2rem;
+  filter: opacity(0.6);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.body .booking__container {
+  background-color: #2e3341;
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 3rem;
+  margin-top: 38px;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding: 2rem;
+  height: 82px;
+  position: absolute;
+  width: 100%;
+}
+.booking__container .book-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /*=================================================>*/
 @media (prefers-reduced-motion: reduce) {
