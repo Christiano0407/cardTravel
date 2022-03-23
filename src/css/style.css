@@ -193,7 +193,38 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.booking__container .book-inner .book {
+  background-color: #3c72fd;
+  color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.booking__container .book-inner .cost .cost-text {
+  filter: opacity(0.6);
+  font-size: 1.2rem;
+}
+.cost h3 span {
+  filter: opacity(0.5);
+}
+.booking__container .book-inner .cancel {
+  background-color: #fd3c56;
+  color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+  right: -120px;
+}
 
+.booking__container .method .method-1 figure img {
+  height: 2rem;
+}
 /*=================================================>*/
 @media (prefers-reduced-motion: reduce) {
   *,
