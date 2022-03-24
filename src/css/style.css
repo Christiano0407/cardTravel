@@ -91,8 +91,8 @@ body {
   position: absolute;
   overflow: hidden;
   background-image: linear-gradient(#00000027, #00000023),
-    url("../assets/image/sanFrancisco.jpg");
-  left: 50%;
+    url("../assets/image/LA.jpg");
+  left: 25%;
   top: 50%;
   background-position: bottom;
   background-size: cover;
