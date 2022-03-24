@@ -202,6 +202,9 @@ body {
   border-radius: 2rem;
   cursor: pointer;
 }
+.book-inner .book:active {
+  transform: scale(0.9);
+}
 .booking__container .book-inner .cost .cost-text {
   filter: opacity(0.6);
   font-size: 1.2rem;
@@ -246,10 +249,33 @@ body {
 .booking__container .method .method-1 figure img {
   height: 2rem;
 }
+.method .card-number {
+  font-size: 1.4rem;
+}
 .method .warning {
   font-size: 1.1rem;
   color: #fd3e56;
   margin-top: 1rem;
+}
+.method .disclaimer {
+  margin-top: 2rem;
+}
+.method .disclaimer-text {
+  font-size: 1.1rem;
+  opacity: 0.6;
+}
+.method .final {
+  background: #3d4455;
+  color: #747e97;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 3.5rem;
+  text-align: center;
+  cursor: not-allowed;
 }
 /*=================================================>*/
 @media (prefers-reduced-motion: reduce) {
