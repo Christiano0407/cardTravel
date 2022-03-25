@@ -25,6 +25,30 @@ Create project app Travel with GSAP and Vanilla Javascript.
 
 - [Youtube](https://www.youtube.com/watch?v=PyJ1idPbkEg)
 
+## Style CSS
+
+> Font Family:
+
+- [Google Fonts](https://fonts.google.com/)
+- "Montserrat", sans-serif";
+- "DM Sans", sans-serif";
+
+> Palette Color:
+
+- [Adobe Color](https://color.adobe.com/es/create)
+  --clr-white: #fff;
+  --clr-white2: #f2f2f2;
+  --clr-white3: #bfbfbf;
+  --clr-black: #000;
+  --clr-black-2: #0d0d0d;
+  --clr-primary: #7338f2;
+  --clr-secondary: #31188c;
+  --clr-secblackOne: #010326;
+
+> Images
+
+- [Unsplash](https://unsplash.com/)
+
 ## MIT License
 
 Copyright (c) 2022 Chris_Velázquez04
